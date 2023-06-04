@@ -1,0 +1,31 @@
+MagasinCentral
+PointDeVente
+Laptop
+Transfert
+Reception
+retourMagasin
+retourPointDeVente
+Vente
+
+-----------------------------------
+
+utilisateur
+laptop(Marque, Référence(modèle), Processeur , Ram , Ecran, Disque Dur)
+pointdevente(utilisateur,
+
+Jour1
+1. Profil magasin
+    a. Module de gestion de laptop (CRUD) -> 10:16
+        i. Un laptop possède les caractéristiques suivants: Marque, Référence
+            (modèle), Processeur , Ram , Ecran, Disque Dur
+    b. CRUD des données de références (point de vente, Marque, Processeur, …)
+    c. Gestion d’utilisateurs : affectation d’un utilisateur à un point de vente.
+    d. Module qui permet d’ajouter un laptop dans le stock du magasin central
+        (achat laptop)
+    e. Module qui permet de transférer des laptops à des points de vente
+2. Profil point de vente
+    a. Module de réception et de renvoi de laptop , à partir du magasin central
+    b. Module de vente d’un laptop
+
+
+
